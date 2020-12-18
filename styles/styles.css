@@ -83,7 +83,10 @@ h2{
     border-radius: 9px;
     font-weight: 600;
     font-size: 130%;
-    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 15px;
 }
 
 #about-section{
@@ -94,6 +97,7 @@ h2{
     padding-top: 50px;
     color: whitesmoke;
     height: 60vh;
+    
 }
 
 #about-section h1{
@@ -110,7 +114,7 @@ h2{
 /* skills */
 
 .skills-section{
-    margin-top: -30vh;
+    margin-top: -15vh;
     background-color: whitesmoke;
     width: 80%;
     margin-left: auto;
@@ -128,5 +132,47 @@ h2{
 .skills-container{
     flex: 1 1 1;
     text-align: center;
-    padding: 1px 1px;
+    padding: 60px 30px;
+}
+
+.central{
+    border-left: 10 solid orange;
+    border-right: 10 solid lightgray;
+}
+
+.skills-container h3, h4{
+    color: orange;
+}
+
+.skills-container h3{
+    font-size: 160%;
+}
+
+.skills-container h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.skills-container img{
+    height: 60px;
+    margin-bottom: 30px;
+    padding: 6px;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 6px solid orange;
+    border-bottom: 6px solid orange;
+}
+
+.skills-container p{
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/* job */
+
+.jobs{
+    text-align: center;
+    padding-top: 30px;
+    
 }
