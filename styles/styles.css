@@ -109,6 +109,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     line-height: 30px;
+    text-align: justify;
 }
 
 /* skills */
@@ -119,7 +120,7 @@ h2{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid lightgray;
+    border: 1px solid orange;
     border-radius: 9px;
 }
 
@@ -136,8 +137,8 @@ h2{
 }
 
 .central{
-    border-left: 10 solid orange;
-    border-right: 10 solid lightgray;
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
 }
 
 .skills-container h3, h4{
@@ -148,31 +149,78 @@ h2{
     font-size: 160%;
 }
 
-.skills-container h4{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
 .skills-container img{
     height: 60px;
     margin-bottom: 30px;
     padding: 6px;
-    border-top: 3px solid orange;
-    border-left: 3px solid orange;
-    border-right: 6px solid orange;
-    border-bottom: 6px solid orange;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-right: 4px solid orange;
+    border-bottom: 4px solid orange;
+    border-radius: 6px;
 }
 
 .skills-container p{
-    line-height: 25px;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 /* job */
 
 .jobs{
     text-align: center;
-    padding-top: 30px;
-    
+    padding-top: 30px;  
+}
+
+.jobs h2{
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.jobs p{
+    margin-bottom: 30px;
+}
+
+.jobs a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+
+.jobs a:hover{
+    border-bottom: 2px solid orange;
+}
+
+.job-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.job-box{
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-radius: 6px;
+}
+
+.proj1{
+    background-image: url(../imgs/proj1.jpg);
+}
+
+.proj2{
+    background-image: url(../imgs/proj2.jpg);
+}
+
+.proj3{
+    background-image: url(../imgs/proj3.jpg);
 }
