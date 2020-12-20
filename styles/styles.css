@@ -224,3 +224,36 @@ h2{
 .proj3{
     background-image: url(../imgs/proj3.jpg);
 }
+
+/* footer */
+
+footer{
+    padding: 50px 0px;
+    background-color: orange;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer img{
+    height: 90px;
+    padding: 30px 0px;
+}
+
+footer form{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea{
+    border: none;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+
+footer span{
+    font-weight: bold;
+}
