@@ -265,8 +265,11 @@ footer span{
     #navbar h1{
         font-size: 1.2rem;
     }
-    #navbar nav{
-        background-color: lightgray;        
+    #navbar-list li{
+        margin: 0px;
+        padding: 3px;
+        background-color: orange;
+        border-radius: 3px;
     }
     #navbar-list ul{
         margin-top: 9rem;
