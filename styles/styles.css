@@ -257,3 +257,42 @@ footer input, footer textarea{
 footer span{
     font-weight: bold;
 }
+
+/* responsividade - media query*/
+
+@media(max-width: 450px){
+    /* geral */
+    #navbar h1{
+        font-size: 1.2rem;
+    }
+    #navbar nav{
+        background-color: lightgray;        
+    }
+    #navbar-list ul{
+        margin-top: 9rem;
+    }
+    #about-section{
+        height: 90vh;
+    }
+    .skills-section{
+        margin-top: -60px;
+    }
+    .skills-section .container{
+        flex-direction: column;
+    }
+    .central{
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid orange;
+        border-bottom: 1px solid orange;
+    }
+    .job-container{
+        flex-direction: column;
+    }
+    .job-box{
+        margin-top: 15px;
+    }
+    footer form{
+        width: 290px;
+    }
+}
