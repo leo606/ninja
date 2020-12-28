@@ -263,22 +263,27 @@ footer span{
 @media(max-width: 450px){
     /* geral */
     #navbar h1{
-        font-size: 1.2rem;
+        display: none;
     }
     #navbar-list li{
         margin: 0px;
         padding: 3px;
-        background-color: orange;
-        border-radius: 3px;
+        padding-left: 12px;
     }
     #navbar-list ul{
         margin-top: 9rem;
+    }
+    .main-banner p{
+        margin: 0;
+        width: auto;
+        height: 2em;
+        padding: 0px;
     }
     #about-section{
         height: 90vh;
     }
     .skills-section{
-        margin-top: -60px;
+        margin-top: 30px;
     }
     .skills-section .container{
         flex-direction: column;
